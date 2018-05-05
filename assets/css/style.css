@@ -1,0 +1,46 @@
+body{
+    width: 1700px;
+    margin-left:100px;
+    margin-right:100px;
+}
+main{
+    padding-top: 60px;
+    width:1000px;
+    margin-left:25px;
+    margin-right:25px;
+    height: 500px;
+}
+header{
+    height: 275px;
+}
+footer{
+    padding:auto;
+    height:60px;
+    /* border: solid; */
+    text-align:center;
+
+
+}
+#mainName{
+    float:left;
+    /* border:solid; */
+    width:500px;
+    margin-left:100px;
+}
+.display-4{
+    font-size:23px;
+}
+#img1{
+    size:150px;
+    float:right;
+    /* border:solid; */
+    margin-right: 100px;
+    margin-bottom:15px;
+
+}
+#ddown{
+    clear:both;
+    /* border:solid; */
+}
+
+
