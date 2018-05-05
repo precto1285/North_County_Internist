@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,20 +17,26 @@
 <body>
     <header class="jumbotron jumbotron-fluid">
 
-            <div id=img1>
-                    <img src="assets/images/logo.png" alt="logo" width=150px>
-                </div>
+        <div id=img1>
+            <img src="assets/images/logo.png" alt="logo" width=150px>
+        </div>
 
         <div id="mainName" class="container">
-            <h1 class="display-4">NORTH COUNTY INTERNIST <br>medical corporation</h1>
+            <h1 class="display-4"><strong>NORTH COUNTY INTERNIST</strong>
+                <br>medical corporation</h1>
             <p id="address" class="lead">
-                <a href="maps.google.com" target="_blank" >123 S main St. Ste A, San Diego, CA 92126</a>
+                <a href="maps.google.com" target="_blank">123 S main St. Ste A, San Diego, CA 92126</a>
             </p>
         </div>
 
-        
+        <div id=img2>
+            <img src="assets/images/medicalLogo.jpg" alt="logo2" width="100px"><br>
+            <h4></h4>
+        </div>
 
-        <div id="ddown">
+
+
+        <div id="ddown" class="p-3 mb-2 bg-light text-dark">
             <ul class="nav justify-content-center">
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">New Page</a>
@@ -38,21 +44,19 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
                     <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Separated link</a>
-                        </div>
+                        <a class="dropdown-item" href="#">Meet the Team</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Referral Network</a>
+                    </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Appointments</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">What You Can Expect at Your Appointment</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+                        <a class="dropdown-item" href="#">New Patient</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Current Patient</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -65,34 +69,27 @@
                         <a class="dropdown-item" href="#">Separated link</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
                     <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Wellness</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+                        <a class="dropdown-item" href="#">OptaVia</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pediatric FAQ's</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">New Born FAQ's</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
+                        <a class="dropdown-item" href="#">NB-6M FAQ's</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Colds &amp; Fevers</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Vaccines</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Pediatric Medication Dosing</a>
                     </div>
                 </li>
             </ul>
@@ -103,14 +100,16 @@
     <main>
 
         <div id="infoBody">
-        <h1>INFORMATION HERE</h1>
-                {{{body}}}
+            <h1>INFORMATION HERE</h1>
+            {{{body}}}
         </div>
-    
+
     </main>
-        
+
     <footer>
+        <div id="copyright">
         <h3>2018 &copy; NCI Medical Corporation</h3>
+        </div>
     </footer>
 
 

@@ -13,18 +13,20 @@ main{
     text-align: center;
     background-image:url("../images/background1.png");
     background-repeat:no-repeat;
-    opacity:0.4;
+    opacity:0.8;
 }
 header{
     height: 275px;
     width:100%;
+    font-family:sans-serif;
 }
 .jumbotron{
     background-color:rgb(104, 200, 255);
     color:white;
 }
 footer{
-    padding:auto;
+    margin-top:20px;
+    padding-top:25px;;
     height:60px;
     /* border: solid; */
     text-align:center;
@@ -46,11 +48,19 @@ footer{
     /* border:solid; */
     margin-left: 100px;
     margin-bottom:15px;
-
+}
+#img2{
+    float:right;
+    /* border:solid; */
+    margin-right: 100px;
+    margin-bottom:15px;
 }
 #ddown{
     clear:both;
+    border-radius:35px;
+    width:1030px;
     /* border:solid; */
+    margin-left:350px;
 }
 
 
