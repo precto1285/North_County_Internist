@@ -2,7 +2,6 @@ body{
     width: 1700px;
     margin-left:100px;
     margin-right:100px;
-    
 }
 main{    
     padding-top: 60px;
@@ -19,7 +18,7 @@ header{
     height: 275px;
     width:100%;
     font-family:sans-serif;
-    
+    margin-top:35px;
 }
 .jumbotron{
     background-color:rgb(104, 200, 255);
@@ -29,7 +28,7 @@ header{
 footer{
     border-radius:20px;
     margin-top:20px;
-    padding-top:25px;;
+    padding-top:20px;;
     height:60px;
     border: solid;
     height:100%;

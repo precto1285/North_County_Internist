@@ -16,15 +16,10 @@
 
 <body>
     <header class="jumbotron jumbotron-fluid">
-
         <div id=img1>
-            <img src="assets/images/logo.png" alt="logo" width=150px>
+            <img src="assets/images/logo.png" alt="logo" width=180px>
         </div>
-
         <div id="mainName" class="container">
-            <h1 class="display-4">
-                <strong>NORTH COUNTY INTERNIST</strong>
-                <br>medical corporation</h1>
             <p id="address" class="lead">
                 <a href="https://www.google.com/maps/place/North+County+Internists/@32.9998509,-117.0574983,15z/data=!4m5!3m4!1s0x0:0x7ed7f0de053f7810!8m2!3d32.9998509!4d-117.0574983"
                     target="_blank">15721 Pomerado Rd, Poway, CA 92064</a>
@@ -32,15 +27,11 @@
             <p>Tel: (858)485-6644
                 <br>Fax: (858)485-0371</p>
         </div>
-
         <div id=img2>
             <img src="assets/images/medicalLogo.jpg" alt="logo2" width="100px">
             <br>
             <h4></h4>
         </div>
-
-
-
         <div id="ddown" class="p-3 mb-2 bg-light text-dark">
             <ul class="nav justify-content-center">
                 <li class="nav-item dropdown">
@@ -99,27 +90,36 @@
                 </li>
             </ul>
         </div>
-
     </header>
 
     <main>
-
         <div id="infoBody">
             <h1>INFORMATION HERE</h1>
             <br>
             <br>
             <br>
+            <br> {{{body}}}
             <br>
-            {{{body}}}
-        </div>
+            <br>
+            <br>
+            <div class="carousel carousel-item">
+                <img src="assets/images/office.jpg" alt="office" width="200px"> 
+                <div class="carousel carousel-caption d-none d-md-block">
+                    <h5>"Office conveniently <br>located near <br>the Pomerado Hospital."</h5>
+                </div>
+            </div>
 
+        </div>
     </main>
 
     <footer>
-
-        <div id="copyright">
-            <p>2018 &copy; NCI Medical Corporation</p>
-        </div>
+            <div id="copyright">
+                    <p>2018 &copy; NCI Medical Corporation</p>
+                </div>
+        <div id="hipaa">
+            <a href="assets/docs/hipaa.pdf" target="_blank">Click here to view our HIPAA Privacy Practices</a>
+            </div>
+        
         
     </footer>
 
