@@ -13,6 +13,10 @@ main{
 header{
     height: 275px;
 }
+.jumbotron{
+    background-color:rgb(104, 200, 255);
+    color:white;
+}
 footer{
     padding:auto;
     height:60px;
