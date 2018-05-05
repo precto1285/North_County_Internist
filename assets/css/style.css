@@ -2,6 +2,7 @@ body{
     width: 1700px;
     margin-left:100px;
     margin-right:100px;
+    
 }
 main{    
     padding-top: 60px;
@@ -10,6 +11,9 @@ main{
     height: 500px;
     /* border:dotted; */
     text-align: center;
+    background-image:url("../images/background1.png");
+    background-repeat:no-repeat;
+    opacity:0.4;
 }
 header{
     height: 275px;
