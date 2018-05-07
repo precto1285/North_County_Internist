@@ -10,7 +10,7 @@ main{
     height: 500px;
     /* border:dotted; */
     text-align: center;
-    background-image:url("../images/Doctor3.png");
+    background-image:url("../images/doctor3.png");
     background-repeat:no-repeat;
     opacity:0.3;
 }
